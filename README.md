@@ -1,6 +1,7 @@
 # sim_sekolah
-
+# under development
 A new Flutter project.
+(Sistem Informasi Manajemen Sekolah)
 
 ## Getting Started
 
