@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sim_sekolah/loginpage.dart';
-import 'package:sim_sekolah/registerpage.dart';
+import 'package:sim_sekolah/logreg/loginpage.dart';
+import 'package:sim_sekolah/logreg/registerpage.dart';
 
 class Loginreg extends StatefulWidget {
   Loginreg({this.title}) : super();

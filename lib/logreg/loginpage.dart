@@ -41,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
               obscureText: true,
             ),
             SizedBox(
-              height: 120.0,
+              height: 165.0,
             ),
             LoginButton(),
             GoogleSignInButton(

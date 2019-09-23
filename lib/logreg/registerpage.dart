@@ -16,7 +16,7 @@ class _RegisterPageState extends State<RegisterPage> {
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
             SizedBox(
-              height: 120.0,
+              height: 100.0,
             ),
             TextFormField(
               decoration: InputDecoration(

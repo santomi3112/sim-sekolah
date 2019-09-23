@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'loginreg.dart';
+import 'loginregtab.dart';
 
 void main() => runApp(MyApp());
 
