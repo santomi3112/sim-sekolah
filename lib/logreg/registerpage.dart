@@ -20,8 +20,21 @@ class _RegisterPageState extends State<RegisterPage> {
             ),
             TextFormField(
               decoration: InputDecoration(
-                labelText: 'Email',
+                fillColor: Colors.lightBlue[50],
                 filled: true,
+                suffix: Container(
+                  width: 5,
+                  height: 5,
+                  color: Colors.blue,
+                ),
+                prefixIcon: Icon(Icons.email),
+                prefixText: "Email: ",
+                prefixStyle:
+                    TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+                labelText: "Email",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
             ),
             SizedBox(
@@ -35,8 +48,21 @@ class _RegisterPageState extends State<RegisterPage> {
                 return null;
               },
               decoration: InputDecoration(
-                labelText: 'Password',
+                fillColor: Colors.lightBlue[50],
                 filled: true,
+                suffix: Container(
+                  width: 5,
+                  height: 5,
+                  color: Colors.blue,
+                ),
+                prefixIcon: Icon(Icons.vpn_key),
+                prefixText: "Password: ",
+                prefixStyle:
+                    TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+                labelText: "Password",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
               obscureText: true,
             ),
@@ -51,8 +77,21 @@ class _RegisterPageState extends State<RegisterPage> {
                 return null;
               },
               decoration: InputDecoration(
-                labelText: 'Repeat Password',
+                fillColor: Colors.lightBlue[50],
                 filled: true,
+                suffix: Container(
+                  width: 5,
+                  height: 5,
+                  color: Colors.blue,
+                ),
+                prefixIcon: Icon(Icons.vpn_key),
+                prefixText: "Password: ",
+                prefixStyle:
+                    TextStyle(color: Colors.blue, fontWeight: FontWeight.w600),
+                labelText: "Repeat Password",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
               obscureText: true,
             ),

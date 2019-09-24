@@ -17,6 +17,7 @@ class _LoginregState extends State<Loginreg> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("Welcome!"),
+          elevation: 3,
           centerTitle: true,
           bottom: TabBar(
             tabs: <Widget>[

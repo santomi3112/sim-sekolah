@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:sim_sekolah/fitur/attendance.dart';
+import 'package:sim_sekolah/fitur/fees.dart';
+import 'package:sim_sekolah/fitur/homework.dart';
+import 'package:sim_sekolah/fitur/profile.dart';
+import 'package:sim_sekolah/fitur/timetable.dart';
 import 'loginregtab.dart';
 
 void main() => runApp(MyApp());
@@ -29,7 +34,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int i = 0;
-  // final List<Widget> pages = [Timetable(), Habit(), Homework(), Payfees(), Profile()];
+  final List<Widget> pages = [
+    Timetable(),
+    Homework(),
+    Attendance(),
+    Fees(),
+    Profile()
+  ];
 
   void _incrementTab(index) {
     setState(() {
@@ -40,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: pages[i],
+      body: pages[i],
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         currentIndex: i,
